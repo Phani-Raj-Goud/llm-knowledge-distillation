@@ -76,7 +76,7 @@ def load_student_model():
     
     return model
 
-# Optional test block to ensure models load correctly
+# Test block to ensure models load correctly
 if __name__ == '__main__':
     # Set device if possible
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
