@@ -33,6 +33,6 @@ Ensure you have Python (3.8+) installed.
 Clone the repository (or create the folder structure) and install dependencies:
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Phani-Raj-Goud/llm-knowledge-distillation.git
 cd knowledge_distillation_project
 pip install -r requirements.txt
