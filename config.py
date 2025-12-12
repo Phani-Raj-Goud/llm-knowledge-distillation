@@ -94,7 +94,6 @@ class Config:
     DISTILLATION = DistillationConfig
     TRAINING = TrainingConfig
 
-# Simple command to test or print config settings (optional)
 if __name__ == '__main__':
     print(f"--- Project Configuration Loaded ---")
     print(f"Teacher Model: {Config.MODEL.TEACHER_MODEL_NAME}")
